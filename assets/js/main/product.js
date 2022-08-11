@@ -19,16 +19,19 @@ start();
 
 function start() {
   callApi();
-  setTimeout(function () {
-    onCLickAdd();
-  }, 1000);
+//   setTimeout(function () {
+//     onCLickAdd();
+//   }, 1000);
 }
 function callApi() {
   fetch("http://petsla-api.herokuapp.com/products/")
     .then(function (res) {
       return res.json();
     })
-    .then((data) => renderHTML(data));
+    .then((data) => {
+      renderHTML(data);
+      onCLickAdd();
+    });
 }
 
 function renderHTML(products) {
