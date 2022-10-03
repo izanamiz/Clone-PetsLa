@@ -58,7 +58,7 @@
 }
 
 .no-products__img {
-    background-image: url(/assets/img/no-products.png);
+    background-image: url(../img/no-products.png);
     padding-top: 30%;
     background-size: cover;
     background-repeat: no-repeat;

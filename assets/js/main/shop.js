@@ -122,7 +122,7 @@ function showShopPage() {
               </ul>
               <div class="header__mid-nav-logo d-flex d-md-none">
                   <a href="#" class="header__mid-nav-logo-link">
-                      <img src="/assets/img/logo.png" alt="">
+                      <img src="./assets/img/logo.png" alt="">
                   </a>
               </div>
               <ul class="header__top-nav-wrap-item">
@@ -148,7 +148,7 @@ function showShopPage() {
               <div class="col l-3 m-3 c-0">
                   <div class="header__mid-nav-logo">
                       <a href="#" class="header__mid-nav-logo-link">
-                          <img src="/assets/img/logo.png" alt="">
+                          <img src="./assets/img/logo.png" alt="">
                       </a>
                   </div>
               </div>
@@ -225,7 +225,7 @@ function showShopPage() {
                 </a>
             </div>
             <div class="col c-3">
-                <a href="/index.html" class="bottom-nav-item-link" style="color: rgb(230, 150, 70)">
+                <a href="./index.html" class="bottom-nav-item-link" style="color: rgb(230, 150, 70)">
                     <div class="bottom-nav-item-wrap">
                         <i class="fa-solid fa-store"></i>
                         <span class="">Shop</span>
