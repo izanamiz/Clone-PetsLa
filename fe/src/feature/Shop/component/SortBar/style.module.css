@@ -1,0 +1,30 @@
+.sortWrap {
+    height: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(214, 214, 214, 0.5);
+    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+.sortSelectGr {
+    /* padding: 0 2rem; */
+    /* margin: 0 10px; */
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.sortby {
+    height: 1.7rem;
+    font-size: 1.05rem;
+    border-radius: 3px;
+    border: solid 0.5px;
+    outline: none;
+}
+
+.sortby:focus {
+    border: rgba(208, 140, 109, 0.651) 3px;
+    border-style: solid;
+}

@@ -1,0 +1,28 @@
+.backToTopBtn {
+    width: 2.25rem;
+    height: 2.75rem;
+    border-radius: 0.3125rem;
+    background-color: #e69646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 12;
+    opacity: 0;
+}
+
+.backToTopBtn.active {
+    opacity: 0.7;
+}
+
+.backToTopBtn.active:hover{
+    opacity: 1;
+}
+.backToTopBtn i{
+    font-size: 1.5rem;
+    color: #fff;
+}
